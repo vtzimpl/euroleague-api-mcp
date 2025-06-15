@@ -56,9 +56,9 @@ Create a `.vscode/mcp.json` file in your project root with the following content
 i.e. for Claude in Windows
 {
   "mcpServers": {
-    "euroleague-live-mcp": {
+    "euroleague-api-mcp": {
       "command": "node",
-      "args": ["C:\\euroleague-live-mcp-main\\build\\index.js"]
+      "args": ["C:\\euroleague-api-mcp\\build\\index.js"]
     }
   }
 }
