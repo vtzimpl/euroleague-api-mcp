@@ -44,7 +44,7 @@ Create a `.vscode/mcp.json` file in your project root with the following content
 ```json
 {
   "servers": {
-    "euroleague-live-mcp": {
+    "euroleague-api-mcp": {
       "command": "node",
       "args": [
         "${workspaceFolder}/build/index.js"
