@@ -1,11 +1,11 @@
 {
-  "name": "euroleague-live-mcp",
+  "name": "euroleague-api-mcp",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an MCP (Model Context Protocol) server for Euroleague and Eurocup basketball data.",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "euroleague-live-mcp": "./build/index.js"
+    "euroleague-api-mcp": "./build/index.js"
   },
   "files": ["build"],
   "scripts": {
@@ -13,7 +13,7 @@
     "start": "node build/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tzimplakis Vasilis <vtzimpl@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.2",

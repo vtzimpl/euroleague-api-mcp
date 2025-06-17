@@ -7,7 +7,7 @@ import { registerGetPlayerStatsTool } from "./tools/getPlayerStats.js";
 
 // Create server instance
 const server = new McpServer({
-  name: "euroleague-live-mcp",
+  name: "euroleague-api-mcp",
   version: "1.0.0",
 });
 

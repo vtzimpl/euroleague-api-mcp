@@ -1,4 +1,4 @@
-# euroleague-live-mcp
+# euroleague-api-mcp
 
 This is an MCP (Model Context Protocol) server for Euroleague and Eurocup basketball data.
 
@@ -36,7 +36,7 @@ node build/index.js
 ## Run with npx (Locally)
 After building, you can also run with npx:
 ```bash
-npx --package=./ euroleague-live-mcp
+npx --package=./ euroleague-api-mcp
 ```
 
 ## MCP Server Configuration (for Claude or other agents)
@@ -44,6 +44,7 @@ Create a `.vscode/mcp.json` file in your project root with the following content
 ```json
 {
   "servers": {
+    "euroleague-api-mcp": {
     "euroleague-api-mcp": {
       "command": "node",
       "args": [
@@ -58,7 +59,7 @@ i.e. for Claude in Windows
   "mcpServers": {
     "euroleague-api-mcp": {
       "command": "node",
-      "args": ["C:\\euroleague-api-mcp\\build\\index.js"]
+      "args": ["C:\\euroleague-api-mcp-main\\build\\index.js"]
     }
   }
 }
