@@ -1,4 +1,4 @@
-# euroleague-live-mcp
+# euroleague-api-mcp
 
 This is an MCP (Model Context Protocol) server for Euroleague and Eurocup basketball data.
 
@@ -14,11 +14,11 @@ This is an MCP (Model Context Protocol) server for Euroleague and Eurocup basket
 ## Installation (from npm)
 Install globally:
 ```bash
-npm install -g euroleague-live-mcp
+npm install -g euroleague-api-mcp
 ```
 Or use with npx (no install required):
 ```bash
-npx euroleague-live-mcp
+npx euroleague-api-mcp
 ```
 
 ## Installation (Locally from source)
@@ -46,9 +46,9 @@ Example configuration:
 ```json
 {
   "mcpServers": {
-    "euroleague-live-mcp": {
+    "euroleague-api-mcp": {
       "command": "npx",
-      "args": ["-y", "euroleague-live-mcp@latest"]
+      "args": ["-y", "euroleague-api-mcp@latest"]
     }
   }
 }
